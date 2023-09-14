@@ -7,7 +7,7 @@ table {
   border-right: 1px solid #ddd;
   border-collapse: collapse;
   border-radius: 1em;
-  overflow: hidden;
+  
   letter-spacing: 1px;
   font-family: sans-serif;
   font-size: 0.5rem;
@@ -23,4 +23,8 @@ tbody tr:nth-child(odd) {
 
 tbody tr:nth-child(even) {
   background-color: #ddd;
+}
+
+table{
+  border-left: 1px solid #ddd;
 }
